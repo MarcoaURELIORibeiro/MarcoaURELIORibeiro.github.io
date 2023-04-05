@@ -1,0 +1,472 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+}
+
+.menuprincipal {
+    width: 100%;
+    background-color: rgb(32, 30, 61);
+    height: 6em;
+    display: flex;
+}
+
+#titulo {
+    color: #efefef;
+    font-size: 30px;
+}
+
+body{
+    background-color: #558286;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: row;
+    background-color: #31585c;
+    width: 72em;
+    padding: 5px;
+    margin-top: 4em;
+}
+
+main.paginainicial{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;;
+    margin-top: 0;
+    flex-direction: row;
+    padding: 0;
+    height: 700px;
+}
+
+div.Playlists{
+    width: 22%;
+    height: 700px;
+    background-color: #31585c;
+}
+
+div.Episódios{
+    width: 78%;
+}
+
+main.paginainicial h2{
+    padding: 15px;
+    font-weight: lighter;
+    color: #efefef;
+    margin-left: 5px;
+}
+
+
+div.a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 12px;
+    justify-content: flex-start;
+}
+
+.kant{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+
+.numero{
+    margin-right: 20px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.autor{
+    font-size: 15px;
+    color: #efefef8f;
+}
+.barra{
+    width: 400px;
+    height: 10px;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid #eee;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+progress{
+    width: 0%;
+    float: left;
+    height: 10px;
+    
+}
+
+.ponto{
+    width: 30px;
+    height: 30px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: -10px;
+
+}
+
+.tempo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 15px;
+}
+
+.podcast{
+    padding: 10px; 
+    width: 500px;
+    margin-top: 80px;
+
+    
+}
+
+div.popular h3{
+    padding: 10px;
+}
+
+.popular{
+    margin-left: 40px;
+
+}
+
+.legal{
+    height: 280px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+img.b{
+    width: 240px;
+    height: 180px;
+
+
+}
+
+img.d{
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.y{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 1092px;
+    margin-right: 15px;
+}
+
+x{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+
+}
+
+be div.y{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 1104px;
+}
+
+div h3{
+    padding: 10px;
+    margin-top: 35px;
+}
+
+p.titulo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+div.popular audio{
+    position: relative;
+    margin: 0;
+    height: 30px;
+    background-color: transparent;
+    margin-top: 5px;
+}
+
+.primeiro{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+}
+
+main.fim{
+    width: 99.3%;
+    background-color: rgb(27, 27, 38);
+    height: 25px;
+    border: none;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.fim2 {
+    width: 99.3%;
+    background-color: rgb(27, 27, 38);
+    height: 25px;
+    border: none;
+    margin-top: 55px;
+        display: flex;
+    justify-content: center;
+}
+
+p{    
+    color: #efefef;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    margin-top: 5px;
+
+}
+
+div.descrição h3{
+    margin-top:0;
+    padding: 0;
+}
+
+#topicos{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 2em;
+}
+
+.descrição{
+    width:60%;
+    padding: 30px;
+    margin-left: 10px;
+}
+
+h3{
+    color: #efefef;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+
+}
+
+b{
+    display: flex;
+    align-items: end;
+    justify-content: start;
+}
+
+h4{
+    color: #efefef;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+
+#leviata{
+    width: 500px;
+    height: 370px;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 10%;
+
+
+}
+
+audio{
+    position: relative;
+    margin-left: 0;
+    background-color: transparent;
+    width: 500px
+}
+
+
+.play{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-block-end: x;
+    margin-top: 1px;
+
+}
+
+main.fim p{
+    font-size: 18px;
+    color: #efefef8b;
+}
+
+main.fim2 p{
+    font-size: 18px;
+    color: #efefef8b;
+}
+
+.player{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 5em;
+    justify-content: center;
+
+}
+
+
+.pause{
+    margin: 10px;
+    
+}
+.pause, .stop{
+    cursor: pointer;
+}
+
+.frente{
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+.tras{
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+.stop{
+    margin: 10px;
+    display: none;
+    
+}
+
+il{
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagem{
+    width: 20px;
+    height: 20px;
+}
+
+.caixadepesquisa{
+    border-radius: 40px;
+    background: #558286;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.botao {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #f0f5fb;
+    font-size: 14px;
+    line-height: 40px;
+    width: 0;
+}
+
+.pesquisa {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    background: #558286;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa:hover + .botao {
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    font-style: none;
+    font-family: 'Raleway', sans-serif;
+    color: #efefef;
+    font-size: 25px;
+}
+
+.galery {
+    width: 100%;
+    height: 12em;
+    overflow: hidden;
+    
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animação;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos ul{
+    width: 19,9%;
+}
+
+.frames{
+    background-color: rgb(32, 30, 61);
+    height: 12em;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+ul.frames il{
+    padding: 0;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.frase1{
+    font-size: 8em;
+}
+
+.frase2{
+    font-size: 8em;
+}
+
+.frase3{
+    font-size: 8em;
+}
+
+.frase4{
+    font-size: 8em;
+}
